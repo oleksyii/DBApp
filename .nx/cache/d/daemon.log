@@ -759,3 +759,21 @@
 [NX Daemon Server] - 2023-12-09T15:23:21.078Z - Time taken for 'total for creating and serializing project graph' 0.40299999713897705ms
 [NX Daemon Server] - 2023-12-09T15:23:21.078Z - Done responding to the client project-graph
 [NX Daemon Server] - 2023-12-09T15:23:21.078Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2023-12-09T15:23:22.379Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-12-09T15:23:36.897Z - [WATCHER]: src/app/square2 was deleted
+[NX Daemon Server] - 2023-12-09T15:23:36.898Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-09T15:23:37.005Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-09T15:23:37.005Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-09T15:23:37.005Z - [REQUEST]: src/app/square2
+[NX Daemon Server] - 2023-12-09T15:23:37.104Z - Time taken for 'hash changed files from watcher' 0.21060001850128174ms
+[NX Daemon Server] - 2023-12-09T15:23:37.880Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-09T15:23:37.883Z - [WATCHER]: src/app/square3 was deleted
+[NX Daemon Server] - 2023-12-09T15:23:38.121Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-09T15:23:38.122Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-09T15:23:38.123Z - [REQUEST]: src/app/square3
+[NX Daemon Server] - 2023-12-09T15:23:38.350Z - Time taken for 'hash changed files from watcher' 0.6430000066757202ms
+[NX Daemon Server] - 2023-12-09T15:26:05.999Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-09T15:26:06.003Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2023-12-09T15:26:06.003Z - [WATCHER]: Stopping the watcher for c:\Users\Alex\Desktop\Labs 3 year\1 term\KPZ\lab05\DBApp\DBApp (sources)
+[NX Daemon Server] - 2023-12-09T15:26:06.003Z - [WATCHER]: Stopping the watcher for c:\Users\Alex\Desktop\Labs 3 year\1 term\KPZ\lab05\DBApp\DBApp (outputs)
+[NX Daemon Server] - 2023-12-09T15:26:06.003Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
