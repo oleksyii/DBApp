@@ -10939,6 +10939,26 @@
     "DBApp": [
       {
         "source": "DBApp",
+        "target": "npm:buffer",
+        "type": "static"
+      },
+      {
+        "source": "DBApp",
+        "target": "npm:events",
+        "type": "static"
+      },
+      {
+        "source": "DBApp",
+        "target": "npm:events",
+        "type": "dynamic"
+      },
+      {
+        "source": "DBApp",
+        "target": "npm:string_decoder",
+        "type": "dynamic"
+      },
+      {
+        "source": "DBApp",
         "target": "npm:@angular/animations",
         "type": "static"
       },

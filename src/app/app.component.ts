@@ -1,16 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
-import { SquareComponent } from './square/square.component';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { GameTableComponent } from './game-table/game-table.component';
+import { SessionTableComponent } from './session-table/session-table.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, SquareComponent],
+  imports: [
+    CommonModule,
+     RouterOutlet,
+     RouterLinkActive,
+     RouterLink,
+     GameTableComponent, 
+     SessionTableComponent
+    ], //, HttpClientModule
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'DBApp';
+ 
 }

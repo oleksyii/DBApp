@@ -1,0 +1,18 @@
+<div class="session-table">
+    <table>
+        <thead> 
+            <tr>
+                <!--   -->
+                <th *ngFor="let field of tableFields" appPurpleBackground>{{ field }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let session of sessions">
+                <td>{{session.sessionId}}</td>
+                <td>{{session.startTimestamp | timestampParser}}</td>
+                <td>{{session.duration}}</td>
+                <td>{{session.gamesetId}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

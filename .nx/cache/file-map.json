@@ -41,56 +41,68 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "src/app/app.component.ts",
-        "hash": "6910766400398525862"
+        "file": "src/app/page-not-found/page-not-found.component.ts",
+        "hash": "15946283348655817531"
       },
       {
-        "file": "src/app/app.component.html",
-        "hash": "17454165876554039912"
+        "file": "src/app/app.module.ts",
+        "hash": "8690765963489052788"
       },
       {
-        "file": "src/app/square3/square3.component.spec.ts",
-        "hash": "249124889274744807"
+        "file": "src/app/session-table/session-table.component.html",
+        "hash": "3820690472104434610"
       },
       {
-        "file": "src/app/game-table/game-table.component.css",
-        "hash": "4055606894390288348"
+        "file": "src/styles.scss",
+        "hash": "18214009267997197641"
       },
       {
-        "file": "src/app/game-table/game-table.component.html",
-        "hash": "6060608546995056956"
+        "file": "src/app/page-not-found/page-not-found.component.html",
+        "hash": "6397897669218763609"
       },
       {
-        "file": "src/app/square2/square2.component.spec.ts",
-        "hash": "14373993368572973845"
+        "file": "src/app/app.routes.ts",
+        "hash": "14700456020714891995"
       },
       {
-        "file": "src/app/square/square.html",
-        "hash": "10130321455479571329"
+        "file": "src/app/app.config.ts",
+        "hash": "11942895579711100737"
       },
       {
-        "file": "src/app/square3/square3.component.ts",
-        "hash": "18261502168351176120"
+        "file": "src/app/page-not-found/page-not-found.component.spec.ts",
+        "hash": "1659212516277747375"
       },
       {
-        "file": "src/app/square/square.component.spec.ts",
-        "hash": "8904505716504164979"
-      },
-      {
-        "file": "src/app/game-table/game-table.component.spec.ts",
-        "hash": "7812582005158015842"
+        "file": "src/app/session-table/session-table.component.ts",
+        "hash": "3309198677942351589"
       },
       {
         "file": "src/app/game-table/game-table.component.ts",
-        "hash": "7106646506199506860"
+        "hash": "5398638925202412500"
       },
       {
-        "file": "src/app/square2/square2.component.ts",
-        "hash": "15836796521587904337"
+        "file": "src/app/directives/purple-background.directive.ts",
+        "hash": "11433033441120541817"
       },
       {
-        "file": "src/app/square/square.component.ts",
-        "hash": "13378379875939324569"
+        "file": "src/app/interceptors/header.interceptor.ts",
+        "hash": "3833206971072134266"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "13229490053150864513"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "10364483467482104130"
+      },
+      {
+        "file": "src/app/directives/purple-background.directive.spec.ts",
+        "hash": "10663809653127423890"
+      },
+      {
+        "file": "src/app/page-not-found/page-not-found.component.css",
+        "hash": "13762811673582668616"
       }
     ],
     "projectFileMap": {
@@ -101,19 +113,335 @@
         },
         {
           "file": ".gitignore",
-          "hash": "13044518069027839699"
+          "hash": "1240603534365810887"
         },
         {
-          "file": ".nx/cache/d/daemon.log",
-          "hash": "4079789223272152504"
+          "file": ".nx/cache/10141483754617672761.commit",
+          "hash": "4664556114322093609"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761.tar.gz",
+          "hash": "11116952698340770766"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/code",
+          "hash": "1838281907459330133"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/3rdpartylicenses.txt",
+          "hash": "13854431710230071916"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/browser/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/browser/index.html",
+          "hash": "5992928634210014046"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/browser/main-2LLFLXGJ.js",
+          "hash": "10856908404373934457"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/browser/polyfills-LZBJRJJE.js",
+          "hash": "5941810377592141465"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/browser/styles-5INURTSO.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/prerendered-routes.json",
+          "hash": "18099171224488230190"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/chunk-4T2WIW6R.mjs",
+          "hash": "3787776346853450949"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/chunk-53JWIC36.mjs",
+          "hash": "3116721081723747723"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/chunk-KRLCULJA.mjs",
+          "hash": "15337594952824951989"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/chunk-QUQDHE73.mjs",
+          "hash": "1683080001393701382"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/index.server.html",
+          "hash": "4682528503265090629"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/main.server.mjs",
+          "hash": "7871759324029876218"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/polyfills.server.mjs",
+          "hash": "7968502407974892923",
+          "deps": [
+            "npm:node:module"
+          ]
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/render-utils.server.mjs",
+          "hash": "4558865334138417444"
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/outputs/dist/dbapp/server/server.mjs",
+          "hash": "8536068414305159289",
+          "deps": [
+            "npm:fs",
+            "npm:path",
+            "npm:url",
+            "npm:fs/promises"
+          ]
+        },
+        {
+          "file": ".nx/cache/10141483754617672761/terminalOutput",
+          "hash": "3303885467950626203"
+        },
+        {
+          "file": ".nx/cache/cloud/2312.01.6.hotfix4/index.js",
+          "hash": "17807890174160981006",
+          "deps": [
+            "npm:os",
+            "npm:assert",
+            "npm:buffer",
+            "npm:zlib",
+            "npm:events",
+            "npm:fs",
+            "npm:path",
+            [
+              "npm:fs",
+              "dynamic"
+            ],
+            [
+              "npm:path",
+              "dynamic"
+            ],
+            [
+              "npm:os",
+              "dynamic"
+            ],
+            [
+              "npm:child_process",
+              "dynamic"
+            ],
+            [
+              "npm:crypto",
+              "dynamic"
+            ],
+            [
+              "npm:tty",
+              "dynamic"
+            ],
+            [
+              "npm:util",
+              "dynamic"
+            ],
+            [
+              "npm:url",
+              "dynamic"
+            ],
+            [
+              "npm:http",
+              "dynamic"
+            ],
+            [
+              "npm:https",
+              "dynamic"
+            ],
+            [
+              "npm:stream",
+              "dynamic"
+            ],
+            [
+              "npm:assert",
+              "dynamic"
+            ],
+            [
+              "npm:zlib",
+              "dynamic"
+            ],
+            [
+              "npm:perf_hooks",
+              "dynamic"
+            ],
+            [
+              "npm:events",
+              "dynamic"
+            ],
+            [
+              "npm:string_decoder",
+              "dynamic"
+            ],
+            [
+              "npm:constants",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": ".nx/cache/cloud/2312.01.6.hotfix4/lib/daemon/process-run-end.js",
+          "hash": "9178465496593350990",
+          "deps": [
+            "npm:path",
+            "npm:os",
+            "npm:assert",
+            "npm:buffer",
+            "npm:zlib",
+            "npm:events",
+            "npm:fs",
+            [
+              "npm:fs",
+              "dynamic"
+            ],
+            [
+              "npm:path",
+              "dynamic"
+            ],
+            [
+              "npm:os",
+              "dynamic"
+            ],
+            [
+              "npm:child_process",
+              "dynamic"
+            ],
+            [
+              "npm:crypto",
+              "dynamic"
+            ],
+            [
+              "npm:tty",
+              "dynamic"
+            ],
+            [
+              "npm:util",
+              "dynamic"
+            ],
+            [
+              "npm:url",
+              "dynamic"
+            ],
+            [
+              "npm:http",
+              "dynamic"
+            ],
+            [
+              "npm:https",
+              "dynamic"
+            ],
+            [
+              "npm:stream",
+              "dynamic"
+            ],
+            [
+              "npm:assert",
+              "dynamic"
+            ],
+            [
+              "npm:zlib",
+              "dynamic"
+            ],
+            [
+              "npm:perf_hooks",
+              "dynamic"
+            ],
+            [
+              "npm:events",
+              "dynamic"
+            ],
+            [
+              "npm:string_decoder",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": ".nx/cache/cloud/2312.01.6.hotfix4/lib/heartbeat/heartbeat-process.js",
+          "hash": "12195602358968166578",
+          "deps": [
+            "npm:os",
+            "npm:fs",
+            "npm:path",
+            [
+              "npm:fs",
+              "dynamic"
+            ],
+            [
+              "npm:path",
+              "dynamic"
+            ],
+            [
+              "npm:os",
+              "dynamic"
+            ],
+            [
+              "npm:child_process",
+              "dynamic"
+            ],
+            [
+              "npm:crypto",
+              "dynamic"
+            ],
+            [
+              "npm:tty",
+              "dynamic"
+            ],
+            [
+              "npm:util",
+              "dynamic"
+            ],
+            [
+              "npm:url",
+              "dynamic"
+            ],
+            [
+              "npm:http",
+              "dynamic"
+            ],
+            [
+              "npm:https",
+              "dynamic"
+            ],
+            [
+              "npm:stream",
+              "dynamic"
+            ],
+            [
+              "npm:assert",
+              "dynamic"
+            ],
+            [
+              "npm:zlib",
+              "dynamic"
+            ],
+            [
+              "npm:perf_hooks",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": ".nx/cache/cloud/2312.01.6.hotfix4/package.json",
+          "hash": "11687418979936424737"
+        },
+        {
+          "file": ".nx/cache/cloud/verify.lock",
+          "hash": "14850474036749622210"
         },
         {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "16988539194990860070"
+          "hash": "13046603269287426937"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "5846548187577111827"
+          "hash": "14628511995840645464"
         },
         {
           "file": ".nx/cache/lockfile.hash",
@@ -121,7 +449,7 @@
         },
         {
           "file": ".nx/cache/nx_files.nxt",
-          "hash": "12094428454153665509"
+          "hash": "9928201490530520830"
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
@@ -129,7 +457,23 @@
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "3301854280419506195"
+          "hash": "7623014141095905194"
+        },
+        {
+          "file": ".nx/cache/run.json",
+          "hash": "17798546892880118062"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/10141483754617672761",
+          "hash": "3303885467950626203"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/13347928452036950061",
+          "hash": "16695628675122250388"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/2556296216288902106",
+          "hash": "11311973937218352817"
         },
         {
           "file": ".vscode/extensions.json",
@@ -211,11 +555,11 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "6880513722212066549"
+          "hash": "13580796031864234269"
         },
         {
           "file": "src/app/app.component.scss",
-          "hash": "3244421341483603138"
+          "hash": "8459423417467706778"
         },
         {
           "file": "src/app/app.component.spec.ts",
@@ -226,7 +570,7 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "8087714299492840133",
+          "hash": "354464673943933923",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -243,19 +587,177 @@
         },
         {
           "file": "src/app/app.config.ts",
-          "hash": "11821239874568871925",
+          "hash": "10042598477045635705",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
-            "npm:@angular/platform-browser"
+            "npm:@angular/platform-browser",
+            "npm:@angular/common"
           ]
         },
         {
+          "file": "src/app/app.module.ts",
+          "hash": "8690765963489052788"
+        },
+        {
           "file": "src/app/app.routes.ts",
-          "hash": "12397496131277534773",
+          "hash": "18075998213009787759",
           "deps": [
             "npm:@angular/router"
           ]
+        },
+        {
+          "file": "src/app/directives/blue-background.directive.spec.ts",
+          "hash": "679483408403958904"
+        },
+        {
+          "file": "src/app/directives/blue-background.directive.ts",
+          "hash": "1111357293515658494",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/entities/game.ts",
+          "hash": "9051180793355434302"
+        },
+        {
+          "file": "src/app/entities/session.ts",
+          "hash": "1081543859011194781"
+        },
+        {
+          "file": "src/app/game-table/game-table.component.css",
+          "hash": "892210040894428741"
+        },
+        {
+          "file": "src/app/game-table/game-table.component.html",
+          "hash": "7105102139590797182"
+        },
+        {
+          "file": "src/app/game-table/game-table.component.spec.ts",
+          "hash": "7812582005158015842",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/game-table/game-table.component.ts",
+          "hash": "11985094751220229562",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/game/game.service.spec.ts",
+          "hash": "13599626002142493658",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/game/game.service.ts",
+          "hash": "2788951759999713975",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "src/app/game/session.service.spec.ts",
+          "hash": "7041969579766695831",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/game/session.service.ts",
+          "hash": "8202460985446651673",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "src/app/interceptors/header.interceptor.spec.ts",
+          "hash": "16408867701524001333",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/interceptors/header.interceptor.ts",
+          "hash": "9814893216185317242",
+          "deps": [
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/pipes/TimestampParser.pipe.spec.ts",
+          "hash": "16889661291688608677"
+        },
+        {
+          "file": "src/app/pipes/TimestampParser.pipe.ts",
+          "hash": "15290144509124643896",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/pipes/timestamp-parser-pipe.pipe.spec.ts",
+          "hash": "17269661657188476872"
+        },
+        {
+          "file": "src/app/pipes/timestamp-parser-pipe.pipe.ts",
+          "hash": "13491023068024618687",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/session-table/session-table.component.css",
+          "hash": "892210040894428741"
+        },
+        {
+          "file": "src/app/session-table/session-table.component.html",
+          "hash": "17064788188118268391"
+        },
+        {
+          "file": "src/app/session-table/session-table.component.spec.ts",
+          "hash": "12522177035641327014",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/session-table/session-table.component.ts",
+          "hash": "16544401465223860201",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/square/square.component.spec.ts",
+          "hash": "8904505716504164979",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/square/square.component.ts",
+          "hash": "13378379875939324569",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/square/square.html",
+          "hash": "10130321455479571329"
         },
         {
           "file": "src/assets/.gitkeep",
