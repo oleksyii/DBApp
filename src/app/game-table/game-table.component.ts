@@ -1,38 +1,37 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IGame } from '../entities/game';
+import { type IGame } from '../entities/game';
 import { GameService } from '../services/game.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlueBackgroundDirective } from '../directives/blue-background.directive';
+import { BoldTextDirective } from '../directives/bold-text.directive';
 
 @Component({
   selector: 'app-game-table',
   standalone: true,
-  imports: [CommonModule, HttpClientModule, BlueBackgroundDirective], //
+  imports: [CommonModule, HttpClientModule, BoldTextDirective], //, BlueBackgroundDirective
   templateUrl: './game-table.component.html',
   styleUrl: './game-table.component.css',
-  providers: [GameService],
+  providers: [GameService]
 })
-export class GameTableComponent{
+export class GameTableComponent {
   public games: IGame[] = [];
   public tableFields: string[] = [
     'gameId',
-    'name', 
+    'name',
     'description',
-    'playersMin', 
+    'playersMin',
     'playersMax',
     'genre',
     'author',
-    'gameCount' 
-  ]
+    'gameCount'
+  ];
 
-  constructor(private _gameService: GameService){
-    this._gameService.getGames().subscribe(data => this.games = data); //.data
-    // this.http.get<IGame[]>(this._getGamesUrl).subscribe(data => this.games = data);
+  constructor(private readonly _gameService: GameService) {
+    this._gameService.getGames().subscribe((data) => (this.games = data)); // .data
 
     console.log('subscription');
     console.log(this.games);
-
   }
   // ngOnInit(): void {
   //   this.loadGames();
@@ -42,9 +41,13 @@ export class GameTableComponent{
   //   this._gameService.getGames().subscribe(data => this.games = data); // .data
   // }
 
-  public getGames(){
-    console.log(this._gameService.getGames().forEach(val => console.log(val)));
-    this._gameService.getGames().subscribe(data => this.games = data);
+  public getGames() {
+    console.log(
+      this._gameService.getGames().forEach((val) => {
+        console.log(val);
+      })
+    );
+    this._gameService.getGames().subscribe((data) => (this.games = data));
     console.log(this.games);
   }
 }

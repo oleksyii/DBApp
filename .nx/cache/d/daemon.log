@@ -3725,3 +3725,44 @@
 [NX Daemon Server] - 2023-12-11T13:41:32.888Z - [WATCHER]: Stopping the watcher for C:\Users\Alex\Desktop\Labs 3 year\1 term\KPZ\lab05\DBApp\DBApp (sources)
 [NX Daemon Server] - 2023-12-11T13:41:32.888Z - [WATCHER]: Stopping the watcher for C:\Users\Alex\Desktop\Labs 3 year\1 term\KPZ\lab05\DBApp\DBApp (outputs)
 [NX Daemon Server] - 2023-12-11T13:41:32.888Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2023-12-11T17:36:42.766Z - Started listening on: \\.\pipe\nx\C:\Users\Alex\AppData\Local\Temp\2cc69700db5fc366b5ea\d.sock
+[NX Daemon Server] - 2023-12-11T17:36:42.777Z - [WATCHER]: Subscribed to changes within: C:\Users\Alex\Desktop\Labs 3 year\1 term\KPZ\lab05\DBApp\DBApp (native)
+[NX Daemon Server] - 2023-12-11T17:36:42.784Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-11T17:36:42.792Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-11T17:36:42.793Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-11T17:36:42.797Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-11T17:36:42.804Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-11T17:36:42.805Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-11T17:36:42.805Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-11T17:36:43.425Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-11T17:36:43.430Z - Time taken for 'total for creating and serializing project graph' 628.2711999416351ms
+[NX Daemon Server] - 2023-12-11T17:36:43.431Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-11T17:36:43.431Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 628. Response time: 6.
+[NX Daemon Server] - 2023-12-11T17:36:43.653Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-11T17:36:43.654Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-11T17:36:43.654Z - Handled HASH_TASKS. Handling time: 46. Response time: 1.
+[NX Daemon Server] - 2023-12-11T17:36:46.714Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-11T17:36:46.716Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-11T17:36:46.718Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-11T17:36:46.723Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-11T17:36:46.724Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-11T17:36:46.725Z - Time taken for 'total for creating and serializing project graph' 0.39190006256103516ms
+[NX Daemon Server] - 2023-12-11T17:36:46.726Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-11T17:36:46.726Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2023-12-11T17:36:54.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-11T17:37:03.672Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-11T17:37:03.794Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-11T17:37:09.518Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-11T17:37:43.118Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-11T17:38:27.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-11T17:38:27.412Z - [WATCHER]: src/app/app.component.ts was modified
+[NX Daemon Server] - 2023-12-11T17:38:27.516Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-11T17:38:27.516Z - [REQUEST]: src/app/app.component.ts
+[NX Daemon Server] - 2023-12-11T17:38:27.517Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-11T17:38:27.674Z - Time taken for 'hash changed files from watcher' 1.3279001712799072ms
+[NX Daemon Server] - 2023-12-11T17:38:28.767Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-11T17:59:18.607Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-11T17:59:18.659Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-11T20:52:53.354Z - [WATCHER]: Stopping the watcher for C:\Users\Alex\Desktop\Labs 3 year\1 term\KPZ\lab05\DBApp\DBApp (sources)
+[NX Daemon Server] - 2023-12-11T20:52:53.359Z - [WATCHER]: Stopping the watcher for C:\Users\Alex\Desktop\Labs 3 year\1 term\KPZ\lab05\DBApp\DBApp (outputs)
+[NX Daemon Server] - 2023-12-11T20:52:53.362Z - Server stopped because: "10800000ms of inactivity"

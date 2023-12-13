@@ -1,8 +1,8 @@
-<div class="session-table">
-    <table>
+<div class="list-container">
+  <!-- <table>
         <thead> 
             <tr>
-                <!--   -->
+               
                 <th *ngFor="let field of tableFields" appPurpleBackground>{{ field }}</th>
             </tr>
         </thead>
@@ -14,5 +14,11 @@
                 <td>{{session.gamesetId}}</td>
             </tr>
         </tbody>
-    </table>
+    </table> -->
+  <ul>
+    <li *ngFor="let session of sessions">
+      {{ session.sessionId }} {{ session.startTimestamp | timestampParser }}
+      {{ session.duration }} {{ session.gamesetId }}
+    </li>
+  </ul>
 </div>

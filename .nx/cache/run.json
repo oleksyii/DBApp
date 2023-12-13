@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx run DBApp:ng",
-    "startTime": "2023-12-11T13:40:22.842Z",
-    "endTime": "2023-12-11T13:40:25.417Z",
+    "startTime": "2023-12-13T13:38:40.890Z",
+    "endTime": "2023-12-13T13:38:48.755Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "DBApp:ng",
       "target": "ng",
       "projectName": "DBApp",
-      "hash": "6779011706215591728",
-      "startTime": "2023-12-11T13:40:22.848Z",
-      "endTime": "2023-12-11T13:40:25.416Z",
+      "hash": "6895677085837029195",
+      "startTime": "2023-12-13T13:38:40.911Z",
+      "endTime": "2023-12-13T13:38:48.753Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

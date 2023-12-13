@@ -22,18 +22,35 @@
     "@angular/cli": "^17.0.6",
     "@angular/compiler-cli": "^17.0.0",
     "@nx/angular": "17.2.0",
+    "@nx/jest": "17.2.0",
+    "@nx/js": "17.2.0",
     "@nx/workspace": "17.2.0",
     "@schematics/angular": "^17.0.6",
+    "@swc-node/register": "~1.6.7",
+    "@swc/core": "~1.3.85",
     "@types/express": "^4.17.17",
     "@types/jasmine": "~5.1.0",
+    "@types/jest": "^29.4.0",
     "@types/node": "^18.18.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/utils": "^6.9.1",
+    "eslint": "^8.55.0",
+    "eslint-config-standard-with-typescript": "^42.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.4.0",
+    "eslint-plugin-promise": "^6.1.1",
     "jasmine-core": "~5.1.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "nx": "17.2.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
     "typescript": "~5.2.2"
   },
   "pathMappings": {},
@@ -41,68 +58,68 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "src/app/page-not-found/page-not-found.component.ts",
-        "hash": "15946283348655817531"
-      },
-      {
-        "file": "src/app/app.module.ts",
-        "hash": "8690765963489052788"
-      },
-      {
         "file": "src/app/session-table/session-table.component.html",
-        "hash": "3820690472104434610"
+        "hash": "1452215305462550362"
       },
       {
-        "file": "src/styles.scss",
-        "hash": "18214009267997197641"
+        "file": "src/app/navbar/navbar.component.spec.ts",
+        "hash": "11611426068913683136"
       },
       {
-        "file": "src/app/page-not-found/page-not-found.component.html",
-        "hash": "6397897669218763609"
+        "file": "src/app/directives/bold-text.directive.spec.ts",
+        "hash": "7578682590804121651"
       },
       {
         "file": "src/app/app.routes.ts",
-        "hash": "14700456020714891995"
-      },
-      {
-        "file": "src/app/app.config.ts",
-        "hash": "11942895579711100737"
-      },
-      {
-        "file": "src/app/page-not-found/page-not-found.component.spec.ts",
-        "hash": "1659212516277747375"
-      },
-      {
-        "file": "src/app/session-table/session-table.component.ts",
-        "hash": "3309198677942351589"
-      },
-      {
-        "file": "src/app/game-table/game-table.component.ts",
-        "hash": "5398638925202412500"
-      },
-      {
-        "file": "src/app/directives/purple-background.directive.ts",
-        "hash": "11433033441120541817"
-      },
-      {
-        "file": "src/app/interceptors/header.interceptor.ts",
-        "hash": "3833206971072134266"
+        "hash": "18384297881100926975"
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "13229490053150864513"
+        "hash": "3973201733238179281"
+      },
+      {
+        "file": "src/app/directives/blue-background.directive.ts",
+        "hash": "1111357293515658494"
+      },
+      {
+        "file": "src/app/game-table/game-table.component.html",
+        "hash": "13360347784600361938"
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "10364483467482104130"
+        "hash": "12875456910452147878"
       },
       {
-        "file": "src/app/directives/purple-background.directive.spec.ts",
-        "hash": "10663809653127423890"
+        "file": "src/app/session-table/session-table.component.css",
+        "hash": "15226801898713150793"
       },
       {
-        "file": "src/app/page-not-found/page-not-found.component.css",
-        "hash": "13762811673582668616"
+        "file": "src/app/interceptors/header.interceptor.ts",
+        "hash": "4476234374344940920"
+      },
+      {
+        "file": "src/app/navbar/navbar.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/navbar/navbar.component.html",
+        "hash": "18129954784597800537"
+      },
+      {
+        "file": "src/app/navbar/navbar.component.ts",
+        "hash": "11211253182266447396"
+      },
+      {
+        "file": "src/app/directives/bold-text.directive.ts",
+        "hash": "3790883303366824570"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "8694628895960921132"
+      },
+      {
+        "file": "src/app/game-table/game-table.component.ts",
+        "hash": "4168987681549533228"
       }
     ],
     "projectFileMap": {
@@ -110,6 +127,10 @@
         {
           "file": ".editorconfig",
           "hash": "6686520031028425313"
+        },
+        {
+          "file": ".eslintrc.js",
+          "hash": "5394151239817487426"
         },
         {
           "file": ".gitignore",
@@ -433,35 +454,35 @@
         },
         {
           "file": ".nx/cache/cloud/verify.lock",
-          "hash": "14850474036749622210"
+          "hash": "11740897780402183565"
         },
         {
           "file": ".nx/cache/d/server-process.json",
-          "hash": "13046603269287426937"
+          "hash": "2251717628097354436"
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "14628511995840645464"
+          "hash": "6465477401961344164"
         },
         {
           "file": ".nx/cache/lockfile.hash",
-          "hash": "411139408137223118"
+          "hash": "18096406883171469363"
         },
         {
           "file": ".nx/cache/nx_files.nxt",
-          "hash": "9928201490530520830"
+          "hash": "9743282784141128915"
         },
         {
           "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "10997315807288992762"
+          "hash": "15713729301952740784"
         },
         {
           "file": ".nx/cache/project-graph.json",
-          "hash": "7623014141095905194"
+          "hash": "18033666056377992115"
         },
         {
           "file": ".nx/cache/run.json",
-          "hash": "17798546892880118062"
+          "hash": "15858452043863879345"
         },
         {
           "file": ".nx/cache/terminalOutputs/10141483754617672761",
@@ -469,15 +490,31 @@
         },
         {
           "file": ".nx/cache/terminalOutputs/13347928452036950061",
-          "hash": "16695628675122250388"
+          "hash": "6530182639370898645"
         },
         {
           "file": ".nx/cache/terminalOutputs/2556296216288902106",
           "hash": "11311973937218352817"
         },
         {
+          "file": ".nx/cache/terminalOutputs/3101356332326487820",
+          "hash": "16769327646529886793"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/6779011706215591728",
+          "hash": "14798799588092040717"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "16448050467312557263"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
           "file": ".vscode/extensions.json",
-          "hash": "12343942279124280405"
+          "hash": "17918173840669689289"
         },
         {
           "file": ".vscode/launch.json",
@@ -492,16 +529,30 @@
           "hash": "6122657496186952215"
         },
         {
+          "file": "jest.config.ts",
+          "hash": "12333515226966617182",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "11039555799044607920",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
           "file": "nx.json",
-          "hash": "7291533900224745162"
+          "hash": "3472265662174069918"
         },
         {
           "file": "package-lock.json",
-          "hash": "14370527938182850246"
+          "hash": "9458056728624809108"
         },
         {
           "file": "package.json",
-          "hash": "14053332489599419007",
+          "hash": "5903820665646740741",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/common",
@@ -523,18 +574,35 @@
             "npm:@angular/cli",
             "npm:@angular/compiler-cli",
             "npm:@nx/angular",
+            "npm:@nx/jest",
+            "npm:@nx/js",
             "npm:@nx/workspace",
             "npm:@schematics/angular",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
             "npm:@types/express",
             "npm:@types/jasmine",
+            "npm:@types/jest",
             "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/utils",
+            "npm:eslint",
+            "npm:eslint-config-standard-with-typescript",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-n",
+            "npm:eslint-plugin-promise",
             "npm:jasmine-core",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
             "npm:karma",
             "npm:karma-chrome-launcher",
             "npm:karma-coverage",
             "npm:karma-jasmine",
             "npm:karma-jasmine-html-reporter",
             "npm:nx",
+            "npm:prettier",
+            "npm:ts-jest",
+            "npm:ts-node",
             "npm:typescript"
           ]
         },
@@ -555,7 +623,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "13580796031864234269"
+          "hash": "10364483467482104130"
         },
         {
           "file": "src/app/app.component.scss",
@@ -570,7 +638,7 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "354464673943933923",
+          "hash": "15380733234083510930",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -587,7 +655,7 @@
         },
         {
           "file": "src/app/app.config.ts",
-          "hash": "10042598477045635705",
+          "hash": "11942895579711100737",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -601,7 +669,7 @@
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "18075998213009787759",
+          "hash": "14700456020714891995",
           "deps": [
             "npm:@angular/router"
           ]
@@ -613,6 +681,17 @@
         {
           "file": "src/app/directives/blue-background.directive.ts",
           "hash": "1111357293515658494",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/directives/purple-background.directive.spec.ts",
+          "hash": "10663809653127423890"
+        },
+        {
+          "file": "src/app/directives/purple-background.directive.ts",
+          "hash": "11433033441120541817",
           "deps": [
             "npm:@angular/core"
           ]
@@ -642,42 +721,10 @@
         },
         {
           "file": "src/app/game-table/game-table.component.ts",
-          "hash": "11985094751220229562",
+          "hash": "5398638925202412500",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "src/app/game/game.service.spec.ts",
-          "hash": "13599626002142493658",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "src/app/game/game.service.ts",
-          "hash": "2788951759999713975",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "src/app/game/session.service.spec.ts",
-          "hash": "7041969579766695831",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "src/app/game/session.service.ts",
-          "hash": "8202460985446651673",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
           ]
         },
         {
@@ -690,8 +737,31 @@
         },
         {
           "file": "src/app/interceptors/header.interceptor.ts",
-          "hash": "9814893216185317242",
+          "hash": "3833206971072134266",
           "deps": [
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/page-not-found/page-not-found.component.css",
+          "hash": "13762811673582668616"
+        },
+        {
+          "file": "src/app/page-not-found/page-not-found.component.html",
+          "hash": "6397897669218763609"
+        },
+        {
+          "file": "src/app/page-not-found/page-not-found.component.spec.ts",
+          "hash": "1659212516277747375",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/page-not-found/page-not-found.component.ts",
+          "hash": "15946283348655817531",
+          "deps": [
+            "npm:@angular/core",
             "npm:@angular/common"
           ]
         },
@@ -718,12 +788,44 @@
           ]
         },
         {
+          "file": "src/app/services/game.service.spec.ts",
+          "hash": "13599626002142493658",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/services/game.service.ts",
+          "hash": "2788951759999713975",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "src/app/services/session.service.spec.ts",
+          "hash": "7041969579766695831",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/services/session.service.ts",
+          "hash": "8202460985446651673",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
           "file": "src/app/session-table/session-table.component.css",
           "hash": "892210040894428741"
         },
         {
           "file": "src/app/session-table/session-table.component.html",
-          "hash": "17064788188118268391"
+          "hash": "3820690472104434610"
         },
         {
           "file": "src/app/session-table/session-table.component.spec.ts",
@@ -734,30 +836,11 @@
         },
         {
           "file": "src/app/session-table/session-table.component.ts",
-          "hash": "16544401465223860201",
+          "hash": "3309198677942351589",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
           ]
-        },
-        {
-          "file": "src/app/square/square.component.spec.ts",
-          "hash": "8904505716504164979",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "src/app/square/square.component.ts",
-          "hash": "13378379875939324569",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "src/app/square/square.html",
-          "hash": "10130321455479571329"
         },
         {
           "file": "src/assets/.gitkeep",
@@ -773,21 +856,21 @@
         },
         {
           "file": "src/main.server.ts",
-          "hash": "11653607448136507287",
+          "hash": "1809965143619408533",
           "deps": [
             "npm:@angular/platform-browser"
           ]
         },
         {
           "file": "src/main.ts",
-          "hash": "4927504514031276065",
+          "hash": "10774836873041682771",
           "deps": [
             "npm:@angular/platform-browser"
           ]
         },
         {
           "file": "src/styles.scss",
-          "hash": "5195668842064076916"
+          "hash": "18214009267997197641"
         },
         {
           "file": "tsconfig.app.json",
@@ -800,6 +883,47 @@
         {
           "file": "tsconfig.spec.json",
           "hash": "15575553540147145788"
+        }
+      ],
+      "eslint-rules": [
+        {
+          "file": "tools/eslint-rules/index.ts",
+          "hash": "4523390044051392161"
+        },
+        {
+          "file": "tools/eslint-rules/jest.config.ts",
+          "hash": "5214161974273419820"
+        },
+        {
+          "file": "tools/eslint-rules/project.json",
+          "hash": "4517320990889168309"
+        },
+        {
+          "file": "tools/eslint-rules/rules/new-es.spec.ts",
+          "hash": "14121821844988141672",
+          "deps": [
+            "npm:@typescript-eslint/utils",
+            "npm:@typescript-eslint/parser"
+          ]
+        },
+        {
+          "file": "tools/eslint-rules/rules/new-es.ts",
+          "hash": "17638625654711569797",
+          "deps": [
+            "npm:@typescript-eslint/utils"
+          ]
+        },
+        {
+          "file": "tools/eslint-rules/tsconfig.json",
+          "hash": "4434923273198121500"
+        },
+        {
+          "file": "tools/eslint-rules/tsconfig.lint.json",
+          "hash": "12876630147226789140"
+        },
+        {
+          "file": "tools/eslint-rules/tsconfig.spec.json",
+          "hash": "10329644707381934371"
         }
       ]
     }

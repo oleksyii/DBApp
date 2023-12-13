@@ -1,24 +1,24 @@
 <div class="game-table">
-    <table>
-        <thead> 
-            <tr>
-                <!--   -->
-                <th *ngFor="let field of tableFields" appBlueBackground>{{ field }}</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let game of games">
-                <td>{{game.gameId}}</td>
-                <td>{{game.name}}</td>
-                <td>{{game.description}}</td>
-                <td>{{game.playersMin}}</td>
-                <td>{{game.playersMax}}</td>
-                <td>{{game.genre}}</td>
-                <td>{{game.author}}</td>
-                <td>{{game.gameCount}}</td>
-            </tr>
-        </tbody>
-    </table>
+  <table>
+    <thead>
+      <tr>
+        <!-- appBlueBackground  -->
+        <th *ngFor="let field of tableFields" appBoldText>{{ field }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of games">
+        <td>{{ game.gameId }}</td>
+        <td>{{ game.name }}</td>
+        <td>{{ game.description }}</td>
+        <td>{{ game.playersMin }}</td>
+        <td>{{ game.playersMax }}</td>
+        <td>{{ game.genre }}</td>
+        <td>{{ game.author }}</td>
+        <td>{{ game.gameCount }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <button (click)="getGames()">click me</button>
